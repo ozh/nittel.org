@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>Nittel</title>
+<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+<link rel="manifest" href="assets/favicon/site.webmanifest">
+<style>
+html{
+    background-image: url("assets/bg.jpg");
+}
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width:200px;
+    height:200px;
+    margin-top: -100px;
+    margin-left: -100px;
+    border-radius: 50%;
+    background-image: url("assets/nittel.jpg");
+    animation: glowing 1000ms infinite;
+}
+@keyframes glowing {
+    0%  { box-shadow: 0 0 50px  #fbfd5d; }
+    10% { box-shadow: 0 0 250px #fbfd5d; }
+    30% { box-shadow: 0 0 100px  #fbfd5d; }
+    100%{ box-shadow: 0 0 50px  #fbfd5d; }
+}
+.footer {
+    position:fixed;
+    top: 100%;
+    left: 100%;
+    width:67px;
+    height:77px;
+    margin-top: -77px;
+    margin-left: -67px;
+    background-image: url("assets/n.png");
+}
+.noshow{display:none}
+</style>
+</head>
+<body>
+<h1 class="noshow">Nittel</h1>
+<h2 class="noshow">Nittel music, Nittel artist</h2>
+<a class="centered" href='https://soundcloud.com/nittel'></a>
+<div class="footer"></div>
+</body>
+</html>
